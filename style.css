@@ -1,0 +1,65 @@
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#message-container {
+  width: 80%;
+  max-width: 600px;
+}
+
+#message-container div {
+  background-color: #CCC;
+  padding: 5px;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: #FFF;
+}
+
+#send-container {
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  background-color: white;
+  max-width: 600px;
+  width: 80%;
+  display: flex;
+}
+
+#message-input {
+  line-height: 15px;
+  margin-right: 3px;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-left-width: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#send-button{
+  margin-left: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+}
+#send-button:hover{
+  background-color: #FFF;
+  color: #212529;
+  border: 2px solid #212529;
+}
+
+.first-btn{
+  line-height: 15px;
+  border-top-width: 3px ;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right-width: 0px;
+  border-color: #CED4DA;
+  padding-left: 7px;
+  padding-right: 7px;
+}
