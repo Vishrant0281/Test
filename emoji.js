@@ -7,7 +7,7 @@ const EmojiPicker = function (options) {
     let categoriesHTML = '';
     let emojiList = undefined;
     let moseMove = false;
-    const pickerWidth = this.options.closeButton;
+    const pickerWidth = this.options.closeButton? 370 : 350;
     const pickerHeight = 300;
 
     this.lib = function (el = undefined) {
